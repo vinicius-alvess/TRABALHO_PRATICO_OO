@@ -1,0 +1,15 @@
+
+
+
+********** Uso da Interface Impressora *******************************************************
+
+Na interface impressora foi encapsulada um metodo escreveTxt() para realizar as funcionalidades de criação e escrita dos arquivos que persistem os dados dos moradores e das despesas, as classes CadastroDespesa e CadastroMorador implementam esse método
+
+
+********* Explicação da funcionalidade dos calculos de divisão de despesas *******************
+
+Para o cálculo das contribuições das despesas, foi utilizado uma Classe Contribuição pai com duas Filhas Igualitária e Proporcional(herança). Na classe pai, os métodos  calcularContribuicao() e arredondar() foram criados para realizar as funções de cálculo da contribuição e arredondamento dos valores para evitar com que alguém pagasse menos ou a mais. Apenas o método calcularContribuicao() foi sobrescrito(polimorfismo) para realizar as formas diferentes de calculo e o restante herdado nas Classes filhas. Em Igualitaria, é apresentado o total das despesas, junto com o resultado dos calculos da porcentagem referente o total de despesa do mês e do valor que todos devem pagar igualmente. Em Proporcional, apresenta o valor que cada morador deve pagar e a porcentagem referente a despesa do mês. O cálculo da proporcionalidade foi feito usando o rendimento de cada morador diretamente proporcional ao total de despesas, para isso calcula-se a razão entre o total de despesas e o rendimento total dos moradores para encontrar a constante de proporcionalidade(k) e assim multiplica-se pelo rendimento de cada morador, achando a parcela que cada um deve pagar das despesas.
+
+********* UI ***********
+
+A classe User Interface (UI), situada no pacote app, possuí associação única  e escopo estático com as classes, situadas no pacote Sistema de Gerenciamento de República (SGR),  CadastroMoradores,  CadastroDespesas, Igualitaria e Porporcional. Sendo assim, o objetivo principal da UI é tratar da interação com o usuário através de um menu de opções de um SGR e tudo isso ocorre a partir do método ApresentarMenu(). Em cada opção do menu será executado um conjunto de métodos de uma classe associada à UI e o método sendo excutado dentro da classe, praticando, então, o encapsulamento. 

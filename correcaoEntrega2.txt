@@ -1,0 +1,35 @@
+Criterios: 
+ * Crit. 1 - Os cadastros funcionam adequadamente?: OK
+ * Crit. 2 - Excecoes sao lancadas adequadamente?: OK
+ * Crit. 3 - Associações sao realizadas adequadamente?:OK
+ * Crit. 4 - Calculos estao corretos?: OK
+
+Pontos positivos: 
+ + Trabalho muito bem feito
+ + Interface muito amigável
+ + Persistencia funcionando adequadamente
+ + Excecoes sendo lancadas e capturadas
+
+
+
+
+Pontos negativos: 
+
+
+
+
+
+Dúvidas: 
+
+
+
+
+
+Comentários: 
+ Trabalho muito bem feito, parabens a todos! Sucesso na jornada de todos vocês
+pela FGA! 
+
+
+
+Nota: 
+100/100 pontos.
